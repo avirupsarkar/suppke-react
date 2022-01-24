@@ -1,15 +1,14 @@
-import React from 'react';
+import React, {useEffect}from 'react';
 import $ from "jquery";
 import 'magnific-popup';
-import { useEffect } from 'react/cjs/react.development';
 
 
 function Video() {
    useEffect(()=>{
-  /* magnificPopup video view */
-  $('.popup-video').magnificPopup({
-    type: 'iframe'
-  });
+    /* magnificPopup video view */
+    $('.popup-video').magnificPopup({
+      type: 'iframe'
+    });
    },[])
  
 
