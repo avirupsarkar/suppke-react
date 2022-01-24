@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?5cea943552dd197efe3b4d0add26cfdc") format("truetype"),
+url("./flaticon.woff?5cea943552dd197efe3b4d0add26cfdc") format("woff"),
+url("./flaticon.woff2?5cea943552dd197efe3b4d0add26cfdc") format("woff2"),
+url("./flaticon.eot?5cea943552dd197efe3b4d0add26cfdc#iefix") format("embedded-opentype"),
+url("./flaticon.svg?5cea943552dd197efe3b4d0add26cfdc#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "avatar": "\f101",
+    "cardiology": "\f102",
+    "edit": "\f103",
+    "invoice": "\f104",
+    "like": "\f105",
+    "pet-bowl": "\f106",
+    "star": "\f107",
+    "target": "\f108",
+);
+
+.flaticon-avatar:before {
+    content: map-get($flaticon-map, "avatar");
+}
+.flaticon-cardiology:before {
+    content: map-get($flaticon-map, "cardiology");
+}
+.flaticon-edit:before {
+    content: map-get($flaticon-map, "edit");
+}
+.flaticon-invoice:before {
+    content: map-get($flaticon-map, "invoice");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-pet-bowl:before {
+    content: map-get($flaticon-map, "pet-bowl");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}

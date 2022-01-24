@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/pz-font/flaticon.ttf?5cea943552dd197efe3b4d0add26cfdc") format("truetype"),
+    url("../fonts/pz-font/flaticon.woff?5cea943552dd197efe3b4d0add26cfdc") format("woff"),
+    url("../fonts/pz-font/flaticon.woff2?5cea943552dd197efe3b4d0add26cfdc") format("woff2"),
+    url("../fonts/pz-font/flaticon.eot?5cea943552dd197efe3b4d0add26cfdc#iefix") format("embedded-opentype"),
+    url("../fonts/pz-font/flaticon.svg?5cea943552dd197efe3b4d0add26cfdc#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-avatar:before {
+    content: "\f101";
+}
+.flaticon-cardiology:before {
+    content: "\f102";
+}
+.flaticon-edit:before {
+    content: "\f103";
+}
+.flaticon-invoice:before {
+    content: "\f104";
+}
+.flaticon-like:before {
+    content: "\f105";
+}
+.flaticon-pet-bowl:before {
+    content: "\f106";
+}
+.flaticon-star:before {
+    content: "\f107";
+}
+.flaticon-target:before {
+    content: "\f108";
+}

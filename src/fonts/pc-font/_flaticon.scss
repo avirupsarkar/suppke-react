@@ -1,0 +1,84 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 11/03/2021 04:15
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-search:before { content: "\f100"; }
+.flaticon-delivery-truck:before { content: "\f101"; }
+.flaticon-footprint:before { content: "\f102"; }
+.flaticon-pawprint:before { content: "\f103"; }
+.flaticon-dog:before { content: "\f104"; }
+.flaticon-leash:before { content: "\f105"; }
+.flaticon-bone:before { content: "\f106"; }
+.flaticon-users:before { content: "\f107"; }
+.flaticon-like:before { content: "\f108"; }
+.flaticon-avatar:before { content: "\f109"; }
+.flaticon-edit:before { content: "\f10a"; }
+.flaticon-star:before { content: "\f10b"; }
+.flaticon-phone-numbers-call:before { content: "\f10c"; }
+.flaticon-user:before { content: "\f10d"; }
+.flaticon-heart-shape-outline:before { content: "\f10e"; }
+.flaticon-shopping-bag:before { content: "\f10f"; }
+.flaticon-guarantee:before { content: "\f110"; }
+.flaticon-dragonfly:before { content: "\f111"; }
+.flaticon-lemon:before { content: "\f112"; }
+.flaticon-dog-1:before { content: "\f113"; }
+.flaticon-bone-1:before { content: "\f114"; }
+.flaticon-dog-food:before { content: "\f115"; }
+    
+    $font-Flaticon-search: "\f100";
+    $font-Flaticon-delivery-truck: "\f101";
+    $font-Flaticon-footprint: "\f102";
+    $font-Flaticon-pawprint: "\f103";
+    $font-Flaticon-dog: "\f104";
+    $font-Flaticon-leash: "\f105";
+    $font-Flaticon-bone: "\f106";
+    $font-Flaticon-users: "\f107";
+    $font-Flaticon-like: "\f108";
+    $font-Flaticon-avatar: "\f109";
+    $font-Flaticon-edit: "\f10a";
+    $font-Flaticon-star: "\f10b";
+    $font-Flaticon-phone-numbers-call: "\f10c";
+    $font-Flaticon-user: "\f10d";
+    $font-Flaticon-heart-shape-outline: "\f10e";
+    $font-Flaticon-shopping-bag: "\f10f";
+    $font-Flaticon-guarantee: "\f110";
+    $font-Flaticon-dragonfly: "\f111";
+    $font-Flaticon-lemon: "\f112";
+    $font-Flaticon-dog-1: "\f113";
+    $font-Flaticon-bone-1: "\f114";
+    $font-Flaticon-dog-food: "\f115";
