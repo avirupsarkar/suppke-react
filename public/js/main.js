@@ -16,6 +16,7 @@ $(window).on('load', function () {
 // var top_offset = $('.main-header').height() - 10;
 // $('.main-menu nav ul').onePageNav({
 // 	currentClass: 'active',
+
 // 	scrollOffset: top_offset,
 // });
 
@@ -87,7 +88,17 @@ function mainSlider() {
 	}
 }
 
+/*=============================================
+	=            Header Search            =
+=============================================*/
+$(".search-icon > a").on('click', function () {
+	$(".search-popup-wrap").slideToggle();
+	return false;
+});
 
+$(".search-close").on('click',function () {
+	$(".search-popup-wrap").slideUp(500);
+});
 /* magnificPopup img view */
 $('.popup-image').magnificPopup({
 	type: 'image',
